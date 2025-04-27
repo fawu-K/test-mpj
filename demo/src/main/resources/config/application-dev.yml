@@ -1,0 +1,25 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  mail:
+    #    邮箱账号
+    username: XXXXX@163.com
+    #    邮箱客户端授权码
+    password: XXXXX
+    #    邮箱服务器地址
+    host: smtp.163.com
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+
+#数据库配置
+DB_HOST: 127.0.0.1
+DB_PORT: 3306
+DATABASE: test-mpj
+DB_USERNAME: root
+DB_PASSWORD: root
+
+
+
