@@ -19,3 +19,14 @@ body:
 ### Cause: org.apache.ibatis.builder.BuilderException: Error evaluating expression 'ew.sqlSegment != null and ew.sqlSegment != '' and ew.nonEmptyOfWhere'. Cause: org.apache.ibatis.ognl.OgnlException: sqlSegment [java.lang.NoClassDefFoundError: com/yunyan/demo/domain/CodeRule]] with root cause
 java.lang.ClassNotFoundException: com.yunyan.demo.domain.CodeRule
 ```
+
+打成jar包后，需要将target下的config文件夹及jar包拉到lib包的同级文件夹的目录下
+结构如下：
+```
+E:
+    - yunyan
+        - lib
+        - demo
+            - config
+            - demo.jar
+```
